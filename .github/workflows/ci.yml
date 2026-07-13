@@ -147,7 +147,6 @@ jobs:
 
   frontend-e2e-tests:
     runs-on: ubuntu-22.04
-    needs: frontend-lint
     env:
       CYPRESS_INSTALL_BINARY: 0
       PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 1
